@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#ascii-title {
+  color: #313a50;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 9px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+#start-btn {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+#stop-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+
+#game-area {
+  width: 400px;
+  height: 300px;
+  background-color: lightgray;
+  border: 3px solid #313a50;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+#start-btn:disabled,
+#stop-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+#stats {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 2px dashed #999;
+  background-color:  #ffffe0;
+}
+
+
+#stats h2 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+#stats p {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  padding: 15px 0;
+}

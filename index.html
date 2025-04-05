@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<body style="background-color: #dae0f0">
+<head>
+    <meta charset="UTF-8" />
+    <title>Refleksomierzacz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+<div id="app">
+    <pre id="ascii-title">
+
+ ██▀███ ▓█████  ███████▓   ▓█████ ██ ▄█▀ ██████ ▒█████  ███▄ ▄███▓██▓█████ ██▀███ ▒███████▒▄▄▄      ▄████▄ ▒███████▒
+▓██ ▒ ██▓█   ▀▓██   ▓██▒   ▓█   ▀ ██▄█▒▒██    ▒▒██▒  ██▓██▒▀█▀ ██▓██▓█   ▀▓██ ▒ ██▒ ▒ ▒ ▄▀▒████▄   ▒██▀ ▀█ ▒ ▒ ▒ ▄▀░
+▓██ ░▄█ ▒███  ▒████ ▒██░   ▒███  ▓███▄░░ ▓██▄  ▒██░  ██▓██    ▓██▒██▒███  ▓██ ░▄█ ░ ▒ ▄▀▒░▒██  ▀█▄ ▒▓█    ▄░ ▒ ▄▀▒░
+▒██▀▀█▄ ▒▓█  ▄░▓█▒  ▒██░   ▒▓█  ▄▓██ █▄  ▒   ██▒██   ██▒██    ▒██░██▒▓█  ▄▒██▀▀█▄   ▄▀▒   ░██▄▄▄▄██▒▓▓▄ ▄██▒ ▄▀▒   ░
+░██▓ ▒██░▒████░▒█░  ░██████░▒████▒██▒ █▒██████▒░ ████▓▒▒██▒   ░██░██░▒████░██▓ ▒██▒███████▒▓█   ▓██▒ ▓███▀ ▒███████▒
+░ ▒▓ ░▒▓░░ ▒░ ░▒ ░  ░ ▒░▓  ░░ ▒░ ▒ ▒▒ ▓▒ ▒▓▒ ▒ ░ ▒░▒░▒░░ ▒░   ░  ░▓ ░░ ▒░ ░ ▒▓ ░▒▓░▒▒ ▓░▒░▒▒▒   ▓▒█░ ░▒ ▒  ░▒▒ ▓░▒░▒
+  ░▒ ░ ▒░░ ░  ░░    ░ ░ ▒  ░░ ░  ░ ░▒ ▒░ ░▒  ░ ░ ░ ▒ ▒░░  ░      ░▒ ░░ ░  ░ ░▒ ░ ▒░░▒ ▒ ░ ▒ ▒   ▒▒ ░ ░  ▒  ░░▒ ▒ ░ ▒
+  ░░   ░   ░   ░ ░    ░ ░     ░  ░ ░░ ░░  ░  ░ ░ ░ ░ ▒ ░      ░   ▒ ░  ░    ░░   ░░ ░ ░ ░ ░ ░   ▒  ░       ░ ░ ░ ░ ░
+   ░       ░  ░         ░  ░  ░  ░  ░        ░     ░ ░        ░   ░    ░  ░  ░      ░ ░         ░  ░ ░       ░ ░
+                                                                                  ░                ░       ░
+
+    </pre>
+
+    <button id="start-btn">Start</button>
+    <button id="stop-btn" disabled>Stop</button>
+
+    <div id="game-area">
+        Kliknij tutaj jak tylko zmienię kolor
+    </div>
+
+
+    <div id="stats" style="display: none;">
+        <h2>Statystyki twojej ostatniej gry</h2>
+        <p>Najkrótszy czas twojej reakcji: <span id="min-time">--</span> ms</p>
+        <p>Najdłuższy czas twojej reakcji: <span id="max-time">--</span> ms</p>
+        <p>Średni czas twojej reakcji: <span id="avg-time">--</span> ms</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<footer>
+    © 2025 Refleksomierzacz. All rights reserved.
+</footer>
+</body>
+</html>
